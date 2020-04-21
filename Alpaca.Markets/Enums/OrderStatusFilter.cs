@@ -28,6 +28,12 @@ namespace Alpaca.Markets
         /// Returns all orders.
         /// </summary>
         [EnumMember(Value = "all")]
-        All
+        All,
+
+        /// <summary>
+        /// Returns only held orders.
+        /// </summary>
+        [EnumMember(Value = "held")]
+        Held
     }
 }
